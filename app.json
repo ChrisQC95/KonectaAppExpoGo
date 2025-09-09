@@ -1,10 +1,10 @@
 {
   "expo": {
-    "name": "Connect Clock",
+    "name": "Konecta",
     "slug": "assiskey",
     "version": "1.0.4",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/konecta.png",
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
@@ -19,8 +19,8 @@
       "bundleIdentifier": "com.bms.assiskey",
       "buildNumber": "1.0.4",
       "infoPlist": {
-        "NSCameraUsageDescription": "Allow Connect Clock to access your camera.",
-        "NSLocationWhenInUseUsageDescription": "Allow Connect Clock to use your location."
+        "NSCameraUsageDescription": "Allow Konecta to access your camera.",
+        "NSLocationWhenInUseUsageDescription": "Allow Konecta to use your location."
       },
       "config": {
         "usesNonExemptEncryption": false
@@ -33,7 +33,7 @@
         }
       },
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/konecta.png",
         "backgroundColor": "#ffffff"
       },
       "permissions": [
@@ -61,15 +61,20 @@
         {
           "locationAlwaysAndWhenInUsePermission": "Allow $(PRODUCT_NAME) to use your location."
         }
-      ]
+      ],
+      "expo-barcode-scanner"
     ],
     "extra": {
       "router": {
         "origin": false
       },
       "eas": {
-        
+        "projectId": "0931fedd-be9d-4e5f-bb50-25593f60db1f"
       }
+    },
+    "newArchEnabled": true,
+    "experiments": {
+      "typedRoutes": true
     }
   }
 }
